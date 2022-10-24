@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
+        .grid {
+            display: flex;
+            justify-content: center;
+        }
 
         td,
         th {
@@ -38,50 +41,52 @@
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th colspan="2" id="år">År</th>
-            </tr>   
-            <tr id="andrerad">
-                <th>Måned</th>
-                <th>Tjent</th>
-            </tr>   
-        </thead>
+    <div class="grid">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2" id="år">År</th>
+                </tr>   
+                <tr id="andrerad">
+                    <th>Måned</th>
+                    <th>Tjent</th>
+                </tr>   
+            </thead>
 
-        <tbody>
-            <tr>
-                <td>januar</td>
-                <td>10000kr</td>
-            </tr>
-            <tr>
-                <td>februar</td>
-                <td>15000kr</td>
-            </tr>
-            <tr>
-                <td>mars</td>
-                <td>25000kr</td>
-            </tr>
-            <tr>
-                <td>april</td>
-                <td>15000kr</td>
-            </tr>
-            <tr>
-                <td>mai</td>
-                <td>15000kr</td>
-            </tr>
-            <tr>
-                <td>juni</td>
-                <td>10000kr</td>
-            </tr>
-            <tr>
-                <td>juli</td>
-                <td>15000kr</td>
-            </tr>
-            <tr>
-                <td colspan="2">Sum: 105000kr</td>
-            </tr>
-        </tbody>
-    </table>
+            <tbody>
+                <tr>
+                    <td>januar</td>
+                    <td>10000kr</td>
+                </tr>
+                <tr>
+                    <td>februar</td>
+                    <td>15000kr</td>
+                </tr>
+                <tr>
+                    <td>mars</td>
+                    <td>25000kr</td>
+                </tr>
+                <tr>
+                    <td>april</td>
+                    <td>15000kr</td>
+                </tr>
+                <tr>
+                    <td>mai</td>
+                    <td>15000kr</td>
+                </tr>
+                <tr>
+                    <td>juni</td>
+                    <td>10000kr</td>
+                </tr>
+                <tr>
+                    <td>juli</td>
+                    <td>15000kr</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Sum: 105000kr</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
