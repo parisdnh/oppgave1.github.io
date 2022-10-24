@@ -1,0 +1,87 @@
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        td,
+        th {
+            border: solid 0.5px black;
+            padding: 1px 7px;;
+        }
+
+        #år {
+            background-color: aqua;
+            color: red;
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        #andrerad {
+            font-size: 4rem;
+            background-color: springgreen;
+        }
+
+        tr:nth-child(odd) {
+            background-color: blue;
+            color: white;
+            font-size: 3rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: springgreen;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" id="år">År</th>
+            </tr>   
+            <tr id="andrerad">
+                <th>Måned</th>
+                <th>Tjent</th>
+            </tr>   
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>januar</td>
+                <td>10000kr</td>
+            </tr>
+            <tr>
+                <td>februar</td>
+                <td>15000kr</td>
+            </tr>
+            <tr>
+                <td>mars</td>
+                <td>25000kr</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>15000kr</td>
+            </tr>
+            <tr>
+                <td>mai</td>
+                <td>15000kr</td>
+            </tr>
+            <tr>
+                <td>juni</td>
+                <td>10000kr</td>
+            </tr>
+            <tr>
+                <td>juli</td>
+                <td>15000kr</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sum: 105000kr</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
